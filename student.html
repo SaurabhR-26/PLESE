@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./student.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-div">
+            <img src="./images/logo.png" alt="" width="100px">
+            <a href="./index.html" class="link">Home</a>
+            <a href="./index1.html" class="link">Admin</a>
+        </div>
+    </nav>
+    <div>
+
+        <div class="form-div">
+            <div class="">
+
+
+                <h1 style="text-align: center;">Student Information</h1>
+                <form action="./index.html" class="form">
+                    <div class="util">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="util">
+                        <label for="year">Year (FY , SY , TY , LY)</label>
+                        <input type="text" id="year" placeholder="Year" required>
+                    </div>
+                    <div class="util">
+                        <label for="dept">Department</label>
+                        <input type="text" id="dept" placeholder="Department" required>
+                    </div>
+                    <div class="util">
+                        <label for="seatno">Exam Seat Number</label>
+                        <input type="text" id="seatno" placeholder="Seat Number" required>
+                    </div>
+                    <div class="util">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="text" id="mobile" placeholder="Mobile No"  required>
+                    </div>
+                    <div class="util">
+                        <label for="addr">Address</label>
+                        <input type="text" id="addr" placeholder="Address" required>
+                    </div>
+                    <div class="util">
+                        <label for="photo">Photo</label>
+                        <input type="file" id="photo">
+                    </div>
+                    <button type="submit" onclick=handle()>Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <p>walchand-college-of-engineering-sangli</p>
+        <p>&#169All rights reserved</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
